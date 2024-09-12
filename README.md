@@ -2,6 +2,7 @@
 En este repositorio se encontraran los archivos correspondientes al proyecto donde se realizara una web y se la relacionara con la base de datos MySQL de Oracle
 
 Este proyecto es una aplicación web para la gestión de productos de una empresa de refrigeración. Permite visualizar, gestionar y actualizar un catálogo de productos relacionados con la refrigeración, tales como motocompresores, bombas de vacío, refrigerantes y accesorios. La aplicación interactúa directamente con una base de datos MySQL, permitiendo la consulta y administración dinámica de productos.
+Para el mismo se utilizara una base de datos ya creada anteriormente, la misma se encuentra en el repositorio "SQL" en la rama "main"
 
 Tecnologías utilizadas
 Frontend:
