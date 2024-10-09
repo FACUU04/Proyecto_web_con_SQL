@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{
+body {
     background-image: url(wallpaper2.jpg);
     background-size: cover;
     color: white;
@@ -8,22 +8,50 @@ body{
 
 h1, h3 {
     font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+    font-weight: 600;
     color: aliceblue;
 }
+
 .categories-container {
-    background: rgba(23, 183, 231, 0.527);
+    background: rgba(163, 224, 243, 0.459);
     padding: 20px;
     border-radius: 10px;
 }
 
-.category {
-    margin: 20px 0;
+
+.categories-container a {
+    text-decoration: none; 
+    color: rgb(18, 121, 238); 
 }
 
-.social-icons {
-    font-size: 1.5rem;
-    margin-top: 20px;
+.categories-container .col-md-4 {
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-container i {
+    display: block;
+    margin: 0 auto 10px auto; 
+}
+
+.E {
+    margin-left: 19%;
+}
+
+/* Animacion icono */
+.categories-container a {
+    display: block;
+    text-align: center;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.categories-container i, .categories-container p {
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.categories-container a:hover i,
+.categories-container a:hover p {
+    transform: scale(1.3); 
+    color: #ffffff; 
 }
